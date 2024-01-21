@@ -21,13 +21,14 @@ class Person (var name: String = "개발자" , var age: Int = 20) {
         fun main(args: Array<String>) {
 
             val person1 = Person("Park", 10) // 객체 생성
-            println(person1)
             val person2 = Person("Kim", 20) // 객체 생성
             val person3 = Person()
             val person4 = Person("you")
 
-
-
+            println(person1)
+            println(person2)
+            println(person3)
+            println(person4)
         }
     }
 }
